@@ -12,6 +12,36 @@
         <li>Mobile Phone: +90-533-305-5255</li>
         <li>E-mail:buraksah@gmail.com</li>
     </ul>
+    <form action="mailto:buraksah@gmail.com" method="POST" enctype="text/plain">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">Full Name:</label></td>
+                    <td><input type="text" name="yourName"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number:</label></td>
+                    <td><input type="text" name="phoneNumber"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="">E-mail Address</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Your Message</label></td>
+                    <td><textarea name="message" id="" cols="22" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="replyBack"></td>
+                    <td><label for="">Send me an answer soon!</label></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Send"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </tbody>
+        </table>   
+    </form>
     <a href="index.html">Go Back</a>
 </body>
 </html>

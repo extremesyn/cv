@@ -1,0 +1,141 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #40514E;
+}
+
+a {
+    color: #11999E;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin: 2rem auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-cloud {
+    left: 20%;
+    position: absolute;
+    top: 70%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.button-hmf {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 20;
+    padding: 10px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.button-hmf:hover {
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.code-img {
+    float: left;
+    padding-right: 5%;
+    width: 25%;
+}
+
+.chilli-img {
+    float: right;
+    padding-left: 5%;
+    width: 25%;
+}
+
+.dotted-hr {
+    border-style: none;
+    border-top: dotted;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.footer-text {
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.middle-container {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile-img {
+    width: 25%;
+}
+
+.skills {}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-cloud {
+    left: 15%;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.top-container {
+    background-color: #e8ffff;
+    height: 100%;
+    width: 100%;
+}
